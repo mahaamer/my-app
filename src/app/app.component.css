@@ -293,7 +293,7 @@ align-self: flex-end;
     margin-right: 20px;
   }
   .ticketTable{
-    width: 1272px;
+    width: 100%;
     height: 319px;
     border-radius: 8px;
     border: 1px solid #f3f3f3;
@@ -381,4 +381,112 @@ align-self: flex-end;
         height: 20px;
         font-size: 9px;
     }
+    .ticketTableHeader{
+      
+        font-size: 8px;
+    
+      }
 }
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    * {
+        margin: 0;
+        font-size: 8px;
+    }
+    .container {
+        margin: 2px;
+        overflow: hidden;
+    }
+    .title {
+        margin-bottom: 10px;
+        margin-top: 13px;
+    }
+    .ticketTitle p {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .ticketEdit {
+        width: 50px;
+        height: 5.14%;
+        margin-left: 4px;
+    }
+    .ticketEdit p {
+        margin-left: 4px;
+        margin-right: 3px;
+        font-size: 10px;
+        font-weight: 800;
+    }
+    .topPart {
+        width: 97%;
+    }
+    .ticketOffer {
+        width: 41%;
+    }
+    .ticketOfferTitleContainer {
+        margin-top: 4px;
+    }
+    .ticketOfferTitle {
+        font-size: 11px;
+        margin-left: 50px;
+        margin-right: 90px;
+    }
+    .ticketOfferRemove {
+        width: 70px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .ticketOfferLinkContainer {
+        margin-right: 62px;
+    }
+    .ticketOfferLinkContainer p {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .ticketOfferexpiredDate p {
+        font-size: 9px;
+    }
+    .number {
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .scanImg {
+        margin-left: 32px;
+        width: 20%;
+        height: 20%;
+        margin-top: 12px;
+    }
+ 
+     
+      .ticketTableHeader p{
+        margin: 29px !important;
+
+      }
+      .ticketTableContent{
+        display: flex;
+        align-items: center;
+        margin: 6px;
+        height: 41px;
+        color: #1C1C28;
+        font-size: 13px;
+        font-weight: 500;
+      }
+      .ticketTableContent p{
+margin: 23px !important;
+      }
+      .userDetail{
+      
+        margin-right: 20px;
+        
+      }
+      .userDetail p{font-size: 8px !important;
+    width: max-content !important;}
+      .ticketDetail{
+        
+        margin-right: 20px;
+      }
+      .ticketDetail p{   font-size: 10px !important; width: max-content !important;}}
+      .divider{
+        border: 1.66px solid #f3f3f5;
+      }
+    
+
+
