@@ -1,0 +1,384 @@
+.container {
+    margin-right: 137px;
+    margin-left: 2.3%;
+    margin-top: 75px;
+    margin-bottom: 37px;
+}
+
+.title {
+    width: 100%;
+    height: 4.15%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+.ticketTitle {
+    display: flex;
+    align-items: center;
+}
+
+.ticketTitle p {
+    margin: 0;
+    margin-right: 7px;
+    color: #1C1C28;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ticketEdit {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    width: 78px;
+    height: 4.14%;
+    border: 1px solid #E9EAEA;
+    background-color: #F9F9F9;
+    border-radius: 4px;
+}
+
+.ticketEdit:hover {
+    background-color: #9e9e9e;
+    cursor: pointer;
+    color: #F9F9F9;
+}
+
+.ticketEdit p {
+    margin: 0;
+    margin-right: 8px;
+}
+
+/* --------------------------- ----------------------*/
+
+.topPart {
+    display: flex;
+}
+
+.chart {
+    width: 71.26%;
+    height: 264px;
+    background-color: #FFFFFFFF;
+    margin-left: 24px;
+    border-radius: 8px;
+    border: 1px solid #EBEBEB;
+    padding-right: 22px;
+    padding-left: 22px;
+    transition: .3s ease-in-out;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px 25px,
+                    rgba(0, 0, 0, 0.4) 0px 10px 10px -5px;
+    }
+}
+
+.usageDateContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.usageTitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1C1C28;
+    margin-bottom: 0px;
+}
+
+.usageDate {
+    font-size: 14px;
+    font-weight: 600;
+    color: #99A1B7;
+    margin-top: 0px;
+}
+
+.usageDateDropbox {
+    width: 67.4px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 8px;
+    border: 1px #E8E8E8 solid;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+.usageDateDropbox img {
+    margin-right: 8px;
+}
+
+.tooltib {
+    color: #E5E5EF;
+}
+
+.ticketOffer {
+    width: 37%;
+    height: 264px;
+    border-radius: 13px;
+    background-color: #FFFFFFFF;
+    background-image: url('../assets/imgs/Maskgroup.png'), url('../assets/imgs/Subtract.png');
+    background-size: 100% auto, cover;
+    background-position: top left, center center;
+    transition: .3s ease-in-out;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px 25px,
+                    rgba(0, 0, 0, 0.4) 0px 10px 10px -5px;
+    }
+}
+
+.ticketOfferTitleContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.ticketOfferTopPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2.5px dashed #ffffff81;
+}
+
+.ticketOfferTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFF;
+    margin-left: 53px;
+    margin-right: 110px;
+   
+}
+
+.ticketOfferRemove {
+    display: flex;
+    width: 70px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    text-align: center;
+}
+.ticketOfferLinkContainer{
+    display: flex;
+    width: 226px;
+    height: 42px;
+    border-radius: 8.3px;
+    border: 1px dashed #DDDD;
+    background-color: #FFF;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-right: 60px;
+}
+.ticketOfferLinkContainer p{
+    color: #1C1C28;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 16px;
+}
+ .ticketOfferTitleComponent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .ticketOfferexpiredDate p{
+    color: #FFF;
+    font-size: 12px;
+
+ }
+ .ticketOfferBottomPart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .ticketOfferNumber{
+    display: flex;
+ }
+ .number {
+    font-weight: 600;
+    font-size: 18px;
+  }
+ .ticketOfferNumberTitle{
+    display: flex;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        margin-right: 15px;
+        margin-left: 17px;
+      
+ }
+ .ticketOfferNumberSend{
+    display: flex;
+    border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  color: #FFFFFF;
+font-size: 12px;
+align-items: center;
+justify-content: center;
+align-self: flex-end;
+  margin-right: 17px;
+  width: 70px;
+  height: 24px;
+  margin-bottom: 25px;
+ }
+ .scanImg{margin-left: 32px;}
+ .ticketOfferNumberSend:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    border: 3px solid #FFFFFF;
+    padding: auto;
+  }
+  .table{
+    margin-top: 24px;
+  }
+  .tableOptions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .tableFilter{
+    display: flex;
+    align-items: center;
+   
+  }
+  .search{
+    display: flex;
+    width: 277px;
+    height: 36px;
+    background-color: #FFF;
+    border: 1px solid #92A1AD;
+    border-radius: 8px;
+    align-items: center;
+    padding-right: 13px;
+    margin-right: 17px;
+  }
+  .search p{
+    margin-right: 4px;
+    font-weight: 500;
+    color: #92A1AD;
+    font-size: 10px;
+  }
+  .filter{
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    border: .7px solid #92A1AD;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+  }
+  .tableButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .toggle{
+    display: flex;
+  }
+  .toggle p {
+    margin-right: 8px;
+    font-size: 14px;
+    color: #9C9D9F;
+  }
+  .newTicketButton{
+    background-color: #8A74f9;
+    border-radius: 6px;
+    border: none;
+    color: #FCFCFC;
+    font-size: 12px;
+    text-align: center;
+    height: 35px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    margin-right: 20px;
+  }
+  .ticketTable{
+    width: 1272px;
+    height: 319px;
+    border-radius: 8px;
+    border: 1px solid #f3f3f3;
+    background-color: #FFF;
+  }
+  .ticketTableHeader{
+    display: flex;
+    align-items: center;
+    margin: 6px;
+    background-color: #E3E4E9;
+    border-radius: 6px;
+    height: 41px;
+    color:#ABAAB1 ;
+    font-size: 13px;
+
+  }
+  .ticketTableContent{
+    display: flex;
+    align-items: center;
+    margin: 6px;
+    height: 41px;
+    color: #1C1C28;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .userDetail{
+    display: flex;
+    align-items: center;
+    margin-right: 48px;
+    
+  }
+  .ticketDetail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 88px;
+  }
+  .divider{
+    border: 1.66px solid #f3f3f5;
+  }
+  .ticketTableFooter{
+    display: flex;
+    align-items: center;
+ 
+    height: 41px;
+    color: #1C1C28;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: 0 4px 0 0;
+  }
+  .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navigation .numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+@media screen and (max-width: 425px) {
+    .container {
+        margin: 40px;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .ticketTitle p {
+        font-size: 12px;
+    }
+
+    .usageDate {
+        font-size: 10px;
+    }
+
+    .usageDateDropbox {
+        width: 40.4px;
+        height: 20px;
+        font-size: 9px;
+    }
+}

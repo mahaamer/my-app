@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;600;700;800;900&display=swap');
+html{
+    margin: 0;
+    background-color: #F3F5F7;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    direction: rtl;
+}
